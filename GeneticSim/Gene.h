@@ -1,8 +1,10 @@
 #pragma once
-class Gene
-{
+class Gene {
 public:
-	Gene();
-	virtual ~Gene();
+    Gene();
+    Gene(Gene &g);
+    virtual ~Gene();
+    Gene &newDuplicate();
+
 };
 
