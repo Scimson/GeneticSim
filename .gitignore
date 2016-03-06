@@ -6,6 +6,8 @@
 *.opendb
 *.vcxproj
 *.vcxproj.*
+*.pyproj
+*__pycache__*
 
 # User-specific files
 *.suo
